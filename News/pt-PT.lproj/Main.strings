@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "4jK-vx-RQI"; */
+"4jK-vx-RQI.text" = "Título";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "KFG-Nt-xOC"; */
+"KFG-Nt-xOC.text" = "Descrição";
+
+/* Class = "UIButton"; normalTitle = "Check Full Article"; ObjectID = "abz-Nw-a6R"; */
+"abz-Nw-a6R.normalTitle" = "Veja o artigo completo";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hUr-wz-FKw"; */
+"hUr-wz-FKw.text" = "Título";
+
+/* Class = "UILabel"; text = "Description Full"; ObjectID = "wJV-8U-I9C"; */
+"wJV-8U-I9C.text" = "Descrição Completa";
