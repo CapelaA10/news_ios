@@ -1,15 +1,42 @@
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "4jK-vx-RQI"; */
-"4jK-vx-RQI.text" = "Título";
+"4jK-vx-RQI.text" = "Title";
+
+/* Class = "UILabel"; text = "State Item"; ObjectID = "8yY-MC-7Zr"; */
+"8yY-MC-7Zr.text" = "State Item";
+
+/* Class = "UITextField"; placeholder = "Name your to-do item"; ObjectID = "B2x-KY-5z7"; */
+"B2x-KY-5z7.placeholder" = "Name your to-do item";
+
+/* Class = "UIButton"; normalTitle = "ButtonPickerText"; ObjectID = "JBa-EX-1Za"; */
+"JBa-EX-1Za.normalTitle" = "ButtonPickerText";
 
 /* Class = "UILabel"; text = "Description"; ObjectID = "KFG-Nt-xOC"; */
-"KFG-Nt-xOC.text" = "Descrição";
+"KFG-Nt-xOC.text" = "Description";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Laf-qj-bDe"; */
+"Laf-qj-bDe.text" = "Label";
+
+/* Class = "UILabel"; text = "State:"; ObjectID = "UP0-pT-fZ9"; */
+"UP0-pT-fZ9.text" = "State:";
+
+/* Class = "UITextField"; placeholder = "Make a description"; ObjectID = "WIm-uO-6mQ"; */
+"WIm-uO-6mQ.placeholder" = "Make a description";
 
 /* Class = "UIButton"; normalTitle = "Check Full Article"; ObjectID = "abz-Nw-a6R"; */
-"abz-Nw-a6R.normalTitle" = "Veja o artigo completo";
+"abz-Nw-a6R.normalTitle" = "Check Full Article";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "dKD-1M-BmU"; */
+"dKD-1M-BmU.normalTitle" = "Delete";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gkk-JD-X3b"; */
+"gkk-JD-X3b.text" = "Label";
 
 /* Class = "UILabel"; text = "Title"; ObjectID = "hUr-wz-FKw"; */
-"hUr-wz-FKw.text" = "Título";
+"hUr-wz-FKw.text" = "Title";
+
+/* Class = "UILabel"; text = "Item Name"; ObjectID = "ii7-Pk-zVo"; */
+"ii7-Pk-zVo.text" = "Item Name";
 
 /* Class = "UILabel"; text = "Description Full"; ObjectID = "wJV-8U-I9C"; */
-"wJV-8U-I9C.text" = "Descrição Completa";
+"wJV-8U-I9C.text" = "Description Full";

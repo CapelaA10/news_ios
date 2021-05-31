@@ -54,7 +54,7 @@ class MostViewController: UIViewController, UITableViewDelegate, UITableViewData
         let task = session.dataTask(with: url, completionHandler: { data, response, error in
             if error != nil{
                 DispatchQueue.main.async {
-                    self.alertUserError(error: "Network error.")
+                    alertUserError(vc: self,error: "Network error.")
                 }
                 return
             }
@@ -72,20 +72,13 @@ class MostViewController: UIViewController, UITableViewDelegate, UITableViewData
             } catch {
                 print(error.localizedDescription)
                 DispatchQueue.main.async {
-                    self.alertUserError(error: "Data error.")
+                    alertUserError(vc: self, error: "Data error.")
                 }
                 return
             }
         })
         task.resume()
     }
-    
-    private func alertUserError(error: String){
-        let alert = UIAlertController(title: "Error", message: error, preferredStyle: UIAlertController.Style.alert)
-        alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: {(alert: UIAlertAction!) in print("Dismised error")}))
-        self.present(alert, animated: true, completion: nil)
-    }
-    
     
     // MARK: - Navigation
 

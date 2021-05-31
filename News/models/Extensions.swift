@@ -17,4 +17,24 @@ extension String{
             comment: self
         )
     }
+    
+    func getEnumDoneItem() -> DoneItemList{
+        if self == "done" {
+            return DoneItemList.done
+        }else if self == "toDo" {
+            return DoneItemList.toDo
+        }else{
+            return DoneItemList.inProgress
+        }
+    }
+    
+    func fromPresentationStringToDone() -> DoneItemList{
+        if self == "Done".localized(){
+            return DoneItemList.done
+        }else if self == "To-do".localized(){
+            return DoneItemList.toDo
+        }else{
+            return DoneItemList.inProgress
+        }
+    }
 }
